@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Civic Future</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://civicfuture.org/wp-content/uploads/2022/12/cropped-favicon-192x192.png" sizes="192x192">
+</head>
+<body>
+
+    <header>
+        <img src="resources/logo2.jpg" alt="Civic Future Logo">
+
+        <div class="social-icons-container">
+         <a href="https://twitter.com/civic_future" target="_blank">
+            <img src="resources/x.png" alt="X Logo" class="social-icon">
+        </a>
+        <a href="https://www.linkedin.com/company/civic-future/" target="_blank">
+            <img src="resources/li.png" alt="LinkedIn Logo" class="social-icon">
+        </a>
+        <a href="https://www.youtube.com/@civicfuture" target="_blank">
+            <img src="resources/yt.png" alt="YouTube Logo" class="social-icon">
+        </a>
+     </div>
+    </header>
+
+    <div id="roleExplorer">
+        <h2>Explore Roles in Public Service</h2>
+        <form id="initialQuestions">
+            <label for="interests">What are your interests? <span id="examples">(try politics, diversity, service...)</span></label>
+            <input type="text" id="interests" name="interests">
+            <button type="button" onclick="generateSuggestions()" id="submitBtn">Submit</button>
+
+        </form>
+    </div>
+
+    <div id="suggestedRoles" style="display:none">
+        <h3>Suggested Roles:</h3>
+        <p id="suggestions"></p>
+    </div>
+
+    <div id="banner">
+        <img src="/resources/ukPol3.jpg" alt="Banner Image">
+    </div>
+
+    
+
+    <div id="roleInformation">
+        <h2>Role Information</h2>
+        <div class="role-container">
+            <div class="role-box">
+               <h3>Politics</h3>
+             <p>Day-to-day activities in politics may involve researching policy issues, meeting with constituents, and participating in legislative sessions.</p>
+          </div>
+
+          <div class="role-box">
+               <h3>Public Service</h3>
+                <p>In public service, you might work on government programs, manage public resources, and engage with the community to address their needs.</p>
+          </div>
+
+          <div class="role-box">
+            <h3>Public Relations</h3>
+            <p>Manage communication between an organization and the public. This role involves creating a positive public image, handling media inquiries, and organizing events to build relationships.</p>
+        </div>
+    
+        <div class="role-box">
+            <h3>Community Organizer</h3>
+            <p>Facilitate and coordinate community initiatives. This role focuses on mobilizing community members, addressing local issues, and fostering collaboration to create positive social change.</p>
+        </div>
+    
+        <div class="role-box">
+            <h3>Policy Analyst</h3>
+            <p>Evaluate and analyze policies to provide informed recommendations. This role requires research skills, an understanding of social issues, and the ability to communicate policy implications clearly.</p>
+        </div>
+    
+        <div class="role-box">
+            <h3>Diversity and Inclusion Specialist</h3>
+            <p>Promote diversity and inclusion within organizations. This role involves developing strategies, training programs, and initiatives to create an inclusive environment that values diverse perspectives.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="engagementOpportunities">
+        <h2>Engagement Opportunities</h2>
+        <p>Explore upcoming events and opportunities to get involved!</p>
+        
+        <ul id="eventsList"></ul>
+    </div>
+
+    <div id="eventInterestForm">
+        <h2>Express Your Interest!</h2>
+        <p>Submit your information to express interest in upcoming events.</p>
+
+        <form id="interestForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Submit</button>
+        </form>
+        
+        <p class="confirmationMessage" id="confirmationMessage"></p>
+    </div>
+
+    <footer>
+        <div class="footer-links">
+            <ul>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#fellowship">Fellowship</a></li>
+                <li><span id="address">Public Hall<br>
+                    1 Horse Guards Avenue<br>
+                    London<br>
+                    SW1A 2HU</span></li>
+            </ul>
+        </div>
+        <div class="footer-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.4462091805435!2d-0.1243761!3d51.5050293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876057fc039373b%3A0x2994528450652ae!2sPublic%20Hall%20powered%20by%20Huckletree!5e0!3m2!1sen!2suk!4v1701366529438!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

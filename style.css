@@ -1,0 +1,272 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; 
+    color: #121220; 
+}
+
+header {
+    background-color: #121220;
+    color: #fff;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 10px;
+} 
+
+.social-icons-container {
+    margin-left: auto;
+}
+
+.social-icon {
+    width: 30px; 
+    height: 30px; 
+    margin-left: 5px;
+    background-color: #fb724a;
+    border-radius: 25%;
+}
+
+.social-icon:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 3px rgba(251, 114, 74, 0.75);
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 0 auto;
+}
+
+#roleExplorer {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd; 
+    background-color: #fff; 
+    color: #000; 
+}
+
+h2 {
+    color: #fb724a; 
+    margin: 0;
+    font-weight: bold;
+}
+
+#roleExplorer h2 {
+    text-align: center;
+    margin: 0;
+}
+
+#initialQuestionsForm {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #121220; 
+    color: #fff; 
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10%;
+    font-weight: bold;
+}
+
+button:hover {
+    color: #121220;
+    background-color: #fb724a;
+    border: #121220 solid 1px;
+    box-shadow: 0 4px 3px rgba(18, 18, 32, 0.75);
+}
+
+button:active {
+    color: #fff;
+    background-color: #121220;
+}
+
+#suggestedRoles {
+    margin-top: 20px;
+    text-align: center;
+}
+
+h3 {
+    color: #121220; 
+}
+
+#suggestions {
+    font-style: italic;
+    color: #555; 
+    display: inline-block; 
+}
+
+#banner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+#banner img {
+    width: 840px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    border: 5px solid rgba(251, 114, 74, 0.6);
+    border-radius: 5%;
+}
+
+#banner h1 {
+    color: #ddd;
+    font-style: italic;
+    font-weight: 900;
+}
+
+#engagementOpportunities {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    text-align: center;
+}
+
+#engagementOpportunities ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#engagementOpportunities li {
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+footer {
+    background-color: #121220;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 350px;
+    border-top: 5px solid #fb724a;
+}
+
+.footer-links {
+    text-align: left;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding-left: 10px;
+    padding-top: 30px;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 25px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-map {
+    width: 300px;
+    height: 300px; 
+    padding-top: 25px;
+    padding-right: 25px;
+}
+
+#address {
+    color: #fb724a;
+    font-weight: bold;
+}
+
+.footer-map iframe {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ddd; 
+}
+
+#eventInterestForm {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.confirmationMessage {
+    color:green;
+    margin-top: 10px;
+}
+
+#roleInformation {
+    text-align: center;
+}
+
+#roleInformation {
+    padding: 10px;
+}
+
+.role-container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.role-box {
+    min-width: 250px;
+    max-width: 300px;
+    width: 300px;
+    margin: 0 10px 20px;
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.role-box h3 {
+    margin-top: 0; 
+    margin-bottom: 10px; 
+}
+
+#examples {
+    font-style: italic;
+    font-weight: bold;
+}
